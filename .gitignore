@@ -1,0 +1,20 @@
+# devkitPro build outputs
+build/
+*.3dsx
+*.elf
+*.smdh
+*.cia
+*.map
+*.o
+*.d
+
+# private generated config
+config/config.generated.json
+config/config.json
+deploy-backups/
+
+# local/editor state
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

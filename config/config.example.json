@@ -1,0 +1,9 @@
+{
+  "daemon_base_url": "http://192.168.0.42:8766",
+  "device_token": "replace-me-with-mobile-token",
+  "holder_id": "asteria-ds",
+  "holder_label": "Asteria DS",
+  "theme": "light_asteria",
+  "sounds_enabled": true,
+  "kick_style": "medium"
+}
