@@ -1,6 +1,6 @@
 # Asteria DS
 
-Asteria DS is an old-3DS homebrew companion for the Asteria Command Station. It turns a handheld console into a lightweight robotics controller with teleop, status, vision preview, audio cues, and a prompt surface for the Asteria Desk.
+Asteria DS is an old-3DS homebrew companion for the [Asteria Command Station](https://github.com/RedLynx101/asteria-command-station). It turns a handheld console into a lightweight robotics controller with teleop, status, vision preview, audio cues, and a prompt surface for the Asteria Desk.
 
 ![Asteria DS running on hardware](docs/images/asteria-ds-handheld.jpg)
 
@@ -14,13 +14,18 @@ Asteria DS is an old-3DS homebrew companion for the Asteria Command Station. It 
 
 ## Repo Pair
 
-This repo is designed to live beside the host repo:
+This repo is designed to live beside the host repo when developing locally:
 
 ```text
 CogRobRepos/
   asteria-command-station/
   asteria-ds/
 ```
+
+Public repos:
+
+- [RedLynx101/asteria-command-station](https://github.com/RedLynx101/asteria-command-station)
+- [RedLynx101/asteria-ds](https://github.com/RedLynx101/asteria-ds)
 
 Generate the private handheld config from the host repo:
 
@@ -36,6 +41,8 @@ sdmc:/3ds/asteria-ds/config.json
 ```
 
 Generated tokens are intentionally not included in this public repo.
+
+The host repo is also where live robot dependencies are configured. Asteria DS only talks to the mobile bridge; it does not import VEX AIM or OpenClaw code directly.
 
 ## Build
 

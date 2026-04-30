@@ -40,6 +40,8 @@ sdmc:/3ds/asteria-ds/config.json
 
 Do not commit that generated config.
 
+The host setup lives in [RedLynx101/asteria-command-station](https://github.com/RedLynx101/asteria-command-station).
+
 ## Install
 
 Copy the app to:

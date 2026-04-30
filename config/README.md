@@ -15,3 +15,5 @@ Generate a real config from the sibling host repo:
 cd ..\asteria-command-station
 python .\scripts\asteria_mobile_setup.py
 ```
+
+Host repo: [RedLynx101/asteria-command-station](https://github.com/RedLynx101/asteria-command-station).

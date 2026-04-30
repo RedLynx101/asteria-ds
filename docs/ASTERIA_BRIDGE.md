@@ -1,6 +1,6 @@
 # Asteria Bridge Contract
 
-Asteria DS is a client of the host daemon in `../asteria-command-station`.
+Asteria DS is a client of the host daemon in [RedLynx101/asteria-command-station](https://github.com/RedLynx101/asteria-command-station).
 
 ## Authentication
 
