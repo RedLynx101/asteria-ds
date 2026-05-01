@@ -75,7 +75,6 @@ HttpResponse HttpClient::request(const std::string& method, const std::string& u
         return result;
     }
 
-    httpcSetSSLOpt(&context, SSLCOPT_DisableVerify);
     httpcAddRequestHeaderField(&context, "User-Agent", "AsteriaDS/0.1");
     httpcAddRequestHeaderField(&context, "Accept", acceptHeader.c_str());
 

@@ -431,7 +431,7 @@ void handleButtonAction(const ButtonRect& button, HttpClient& http, AppState& st
     }
     if (button.id == "claim") {
         fireCommand(http, state, "/api/mobile/teleop/claim", "Claim control",
-                    "{\"holder_id\":\"" + state.config.holderId + "\",\"holder_label\":\"" + state.config.holderLabel + "\"}");
+                    "{\"holder_id\":" + jsonString(state.config.holderId) + ",\"holder_label\":" + jsonString(state.config.holderLabel) + "}");
         audio.play(Cue::Send);
         return;
     }
