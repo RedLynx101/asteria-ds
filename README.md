@@ -4,6 +4,12 @@ Asteria DS is an old-3DS homebrew companion for the [Asteria Command Station](ht
 
 ![Asteria DS running on hardware](docs/images/asteria-ds-handheld.jpg)
 
+## Demo Video
+
+[![Watch the Asteria demo](https://img.youtube.com/vi/D1TDQfpEP5k/hqdefault.jpg)](https://youtu.be/D1TDQfpEP5k)
+
+A short demo of Asteria, a local command station that connects AI agents, a VEX AIM robot, FSM demos, vision capture, and a handheld Asteria DS controller through one safer daemon-centered workflow. The demo is under seven minutes.
+
 ## What It Does
 
 - Connects to the Asteria daemon over the authenticated mobile bridge.
