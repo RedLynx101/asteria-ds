@@ -107,3 +107,7 @@ Default daemon port: `8766`.
 ## Contributing
 
 I am open to collaboration on Asteria DS. Useful contributions include handheld UI polish, safer teleop behavior, build/install docs, audio or accessibility improvements, and bug reports from real hardware. See `CONTRIBUTING.md` for the working guidelines.
+
+## License
+
+MIT License. See `LICENSE`.
